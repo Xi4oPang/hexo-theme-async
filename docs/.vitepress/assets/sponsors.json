@@ -18,6 +18,24 @@
 	],
 	"logs": [
 		{
+			"name": "M*y",
+			"money": 20,
+			"type": "wechat",
+			"date": "2025-08-04"
+		},
+		{
+			"name": "*下",
+			"money": 2,
+			"type": "wechat",
+			"date": "2024-11-20"
+		},
+		{
+			"name": "4*6",
+			"money": 5,
+			"type": "wechat",
+			"date": "2024-11-14"
+		},
+		{
 			"name": "**俊",
 			"money": 20,
 			"type": "alipay",
@@ -27,6 +45,12 @@
 			"name": "**锋",
 			"money": 1,
 			"type": "alipay",
+			"date": "2023-04-29"
+		},
+		{
+			"name": "*o",
+			"money": 1,
+			"type": "wechat",
 			"date": "2023-04-29"
 		},
 		{
