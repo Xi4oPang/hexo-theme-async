@@ -2,6 +2,7 @@ import { utils } from './utils';
 import globalFun from './global';
 import SwupHeadPlugin from './swup/head';
 import SwupScriptsPlugin from './swup/script';
+import { initHotSearch } from './hot-search';
 
 /**
  * 初始化预览图片
@@ -691,6 +692,9 @@ export function ready() {
 	/* The blog runs long */
 	ShowDateTime();
 
+	/* hot search */
+	initHotSearch();
+
 	if (window.ASYNC_CONFIG.swup) {
 		document.addEventListener('swup:contentReplaced', function () {
 			/* Update page configuration */
@@ -745,6 +749,9 @@ export function ready() {
 
 			/* random covers */
 			InitRandomCovers();
+
+			/* hot search */
+			initHotSearch();
 		});
 	}
 }

@@ -93,6 +93,8 @@ top_bars: # <object[]> {{"title:标题":"","url:地址":"","noswup:不使用 Pja
     url: /
   - title: menu.archives
     url: /archives/
+  - title: menu.hot_search
+    url: /hot-search/
 
 # Banner settings | 横幅配置
 banner:
@@ -122,6 +124,9 @@ banner:
   about: ## 关于页横幅
     banner_title: 醉后不知天在水，<br>满船清梦压星河。
     banner_text: About me
+  hot_search: ## 热搜页横幅
+    banner_title: 随便看看，<br>世界很大。
+    banner_text: Hot searches from other forums.
 
 # Sidebar settings | 侧栏
 sidebar:
@@ -379,6 +384,7 @@ layout:
   page_category: _partial/page/category # 分类页面模块
   page_index: _partial/page/index # 首页页面模块
   page_links: _partial/page/links # 友链页面模块
+  page_hot_search: _partial/page/hot-search # 热搜页面模块
   page_post: _partial/page/post # 文章详情页面模块
   page_tag: _partial/page/tag # 标签页面模块
   # other
