@@ -57,5 +57,13 @@
 			"prettier --write"
 		],
 		"**/*.{js,jsx,vue,ts,tsx,json,less}": "prettier --write"
+	},
+	"dependencies": {
+		"hexo-renderer-ejs": "^2.0.0",
+		"hexo-renderer-haml": "^0.2.0",
+		"hexo-renderer-less": "^4.0.0",
+		"hexo-renderer-pug": "^3.0.0",
+		"hexo-renderer-sass": "^0.5.0",
+		"hexo-renderer-stylus": "^3.0.1"
 	}
 }

@@ -2,8 +2,8 @@ import { defineConfig } from 'tsup';
 
 export default defineConfig(options => {
 	return {
-		entry: ['src/plugins/*.ts', 'src/main.ts'],
-		splitting: true,
+		entry: ['src/main.ts'],
+		splitting: false,
 		sourcemap: false,
 		clean: true,
 		format: ['iife'],

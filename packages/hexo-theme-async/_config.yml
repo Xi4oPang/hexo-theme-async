@@ -292,6 +292,21 @@ search:
   domain: # 域名地址, type 为 engine 时填写
   # href: "https://www.baidu.com/s?wd=site:"
   # href: "https://www.bing.com/search?q=site:"
+# Hot search | 热门搜索
+hot_search:
+  enable: false # enable | 启用
+  el: .trm-hot-search-list # el | 容器
+  sources: # sources | 来源
+    - name: Bilibili
+      url: https://api.bilibili.com/x/web-interface/popular
+    - name: CSDN
+      url: https://blog.csdn.net/phoenix/web/blog/hot-rank
+    - name: Juejin
+      url: https://api.juejin.cn/content_api/v1/content/article_rank
+    - name: TieBa
+      url: https://tieba.baidu.com/hottopic/browse/topicList
+    - name: SMZDM
+      url: https://www.smzdm.com/top/
 
 # Think of swup as being pjax on steroids. The concepts are similar to those used in barba.js or other transition libraries.
 # https://swup.js.org/

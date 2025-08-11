@@ -82,6 +82,22 @@ creative_commons:
 
 swup: true
 
+# Hot search | 热门搜索
+hot_search:
+  enable: true # enable | 启用
+  el: .trm-hot-search-list # el | 容器
+  sources: # sources | 来源
+    - name: Bilibili
+      url: https://api.bilibili.com/x/web-interface/popular
+    - name: CSDN
+      url: https://blog.csdn.net/phoenix/web/blog/hot-rank
+    - name: Juejin
+      url: https://api.juejin.cn/content_api/v1/content/article_rank
+    - name: TieBa
+      url: https://tieba.baidu.com/hottopic/browse/topicList
+    - name: SMZDM
+      url: https://www.smzdm.com/top/
+
 toc:
   enable: true
   list_number: false

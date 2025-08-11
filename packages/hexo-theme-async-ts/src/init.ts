@@ -2,7 +2,8 @@ import { utils } from './utils';
 import globalFun from './global';
 import SwupHeadPlugin from './swup/head';
 import SwupScriptsPlugin from './swup/script';
-import { initHotSearch } from './hot-search';
+import { initHotSearch } from './plugins/hot-search';
+
 
 /**
  * 初始化预览图片
