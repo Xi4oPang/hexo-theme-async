@@ -52,6 +52,7 @@ assets:
       typing: js/plugins/typing.js
       search: js/plugins/local_search.js
       danmu: js/plugins/danmu.js
+      hot_search: js/plugins/hot-search.js
       main: js/main.js
   icons: ## Icon configuration
     type: font # font symbol
@@ -294,7 +295,7 @@ search:
   # href: "https://www.bing.com/search?q=site:"
 # Hot search | 热门搜索
 hot_search:
-  enable: false # enable | 启用
+  enable: true # enable | 启用
   el: .trm-hot-search-list # el | 容器
   sources: # sources | 来源
     - name: Bilibili
@@ -302,11 +303,11 @@ hot_search:
     - name: CSDN
       url: https://blog.csdn.net/phoenix/web/blog/hot-rank
     - name: Juejin
-      url: https://api.juejin.cn/content_api/v1/content/article_rank
-    - name: TieBa
-      url: https://tieba.baidu.com/hottopic/browse/topicList
+      url: https://api.juejin.cn/recommend_api/v1/article/recommend_all_feed
+    - name: Hupu
+      url: https://bbs.hupu.com/all-gambia
     - name: SMZDM
-      url: https://www.smzdm.com/top/
+      url: https://www.smzdm.com/api/v1/hot_list
 
 # Think of swup as being pjax on steroids. The concepts are similar to those used in barba.js or other transition libraries.
 # https://swup.js.org/

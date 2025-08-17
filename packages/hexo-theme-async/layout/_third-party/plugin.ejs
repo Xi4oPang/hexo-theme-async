@@ -88,4 +88,9 @@ plugin = theme.assets.plugin;
 		<% if(theme.banner.danmu.enable) {%>
 			<script src="<%= url_for(plugin.hexo_theme_async.danmu) %>?v=<%= theme.version %>"></script>
 		<% } %>
+
+		<!-- 热门搜索插件 -->
+		<% if(theme.hot_search && theme.hot_search.enable) {%>
+			<script src="<%= url_for(plugin.hexo_theme_async.hot_search) %>?v=<%= theme.version %>"></script>
+		<% } %>
 <% } %>

@@ -1,0 +1,18 @@
+# Hot search | 热门搜索
+hot_search:
+  enable: true # enable | 启用
+  el: .trm-hot-search-list # el | 容器
+  sources: # sources | 来源
+    - name: Bilibili
+      url: https://api.bilibili.com/x/web-interface/popular/series/one
+    - name: CSDN
+      url: https://blog.csdn.net/phoenix/web/blog/hot-rank
+    - name: Juejin
+      url: https://api.juejin.cn/recommend_api/v1/article/recommend_all_feed
+    - name: TieBa
+      url: https://tieba.baidu.com/hottopic/browse/topicList
+    - name: Hupu
+      url: https://bbs.hupu.com/api/v1/hot-topics
+    - name: SMZDM
+      url: https://www.smzdm.com/top/
+
