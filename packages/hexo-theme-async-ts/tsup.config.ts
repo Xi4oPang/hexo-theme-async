@@ -7,6 +7,7 @@ export default defineConfig(options => {
 		sourcemap: false,
 		clean: true,
 		format: ['iife'],
+		target: 'es2018',
 		outExtension() {
 			return {
 				js: '.js',

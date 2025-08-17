@@ -5,19 +5,12 @@
 	li {
 		position: relative;
 		list-style-type: none;
-		padding-left: 25px;
+		padding-left: 0;
 		color: var(--theme-color, #00283a);
 		word-break: break-all;
 
 		&:before {
-			content: "";
-			position: absolute;
-			top: 6px;
-			left: 0;
-			height: 10px;
-			width: 10px;
-			border: solid 3px var(--primary, #afb42b);
-			border-radius: 50%;
+			display: none;
 		}
 
 		+ li {
